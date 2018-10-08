@@ -7,11 +7,11 @@ import logging.handlers
 import resources
 
 
-app = Flask(__name__)
+application = Flask(__name__)
 
-@app.route('/')
+@application.route('/')
 def init():
     return render_template('index.html', text=resources.text)
 
 if __name__ == "__main__":
-    app.run()
+    application.run()
