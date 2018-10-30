@@ -38,7 +38,7 @@ text={
 		},
 		'exp_5': {
 			'name': 'Innovation',
-			'content': 'Curiosity to do things different is always in me.  It leads directly to innovative ideas and creativity'
+			'content': 'Curiosity to do things differently is always in me.  It leads directly to innovative ideas and creativity'
 		},
 		'exp_6': {
 			'name': 'Agile Development',
