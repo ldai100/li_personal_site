@@ -135,8 +135,15 @@ text={
 
 	'works':[
 		{
+			'title_company': 'Data Platform Engineer at White Ops',
+			'time_range': 'Feb 2019 - Present',
+			'content': [
+				'Protecting the internet from evil doers.  :)',
+			]
+		},
+		{
 			'title_company': 'Software Engineer at Fidelity Investments',
-			'time_range': 'Jan 2018 - Present',
+			'time_range': 'Jan 2018 - Feb 2019',
 			'content': [
 				'Responsible for Adobe Analytics migration to AWS',
 				'Refactored E-mail templates to utlize functions of Apache Velocity template engine'
