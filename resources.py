@@ -2,12 +2,12 @@
 text={
 	'home': {
 		'name': 'Li',
-		'occupation': 'Software Engineer',
-		'rank': 'Airman',
-		'company': 'Fidelity Investments'
+		'occupation': 'Founder',
+		'rank': 'Senior Airman',
+		'company': 'ESFE'
 	},
 	'about':{
-		'greet': 'Hi, I am Li Dai, a software engineer and a veteran. ',
+		'greet': 'Hi, I am Li Dai, a veteran, software engineer, and technology enthusiast. ',
 		'first_paragraph': '',
 		'second_paragraph': ''
 	},
@@ -23,7 +23,7 @@ text={
 		'exp_1': {
 			'name': 'Leadership',
 			'content': 'Success of one\'s self isn\'t a true leader.  I strive for everyone\'s success around me'
-		},	
+		},
 		'exp_2': {
 			'name': 'Software Development',
 			'content': 'Building softwares to support crucial customer services in Fidelity Investments'
@@ -100,8 +100,8 @@ text={
 							Some interesting ones include Treasurer of Veteran\'s Club, \
 							Proctor for ACM Algorithm Competition, and Teaching Assistant for C++\
 							',
-			'courses': 	[	
-								'Advanced OOP in Java & C++', 
+			'courses': 	[
+								'Advanced OOP in Java & C++',
 						   		'Theory of Quantum Computing',
 							   	'Time & Space Complexity',
 							   	'Image Processing & Computer Graphics',
@@ -118,10 +118,10 @@ text={
 							and Psychology is our way to understand human, I relentlessly pursued a double degree \
 							in these two in hope they will help me both the world and people better\
 							',
-			'courses':	[ 	
+			'courses':	[
 								'Advanced Calculus',
 								'Differential Equation',
-								'Mathematics Problem Solving',	
+								'Mathematics Problem Solving',
 								'Probability & Statistics',
 								'Linear Algebra',
 								'Advanced Experimental Psychology',
@@ -134,11 +134,32 @@ text={
 	'direction': ['Left', 'Top', 'Right', 'Bottom'],
 
 	'works':[
+	    {
+			'title_company': 'Founder/Tech Lead at ESFE',
+			'time_range': 'July 2019 - Present',
+			'content': [
+				'Recruited 20 people to voluntarily work ESFE projects',
+                'Set up infrastructures on AWS for app development',
+                'Set up Trello/JIRA board to follow agile development',
+                'Designed app architecture including mobile, server, and database',
+                'Conducted scrum meetings, wrote product roadmaps, and set deadlines',
+                'Interviewed potential clients about feedbacks and product features',
+                'Implemented and hosted static s3 websites using HTML / CSS',
+                'https://nycesfe.com/'
+			]
+		},
 		{
 			'title_company': 'Data Platform Engineer at White Ops',
 			'time_range': 'Feb 2019 - Present',
 			'content': [
-				'Protecting the internet from evil doers.  :)',
+				'Built and maintained platforms that process 1 billion messages per day',
+				'Developed integration tests for multiple applications in docker containers',
+				'Implemented decompression and compression to reduce throughput by 80%',
+				'Tested applications on AWS in linux system with tools rabbitMQ, Kafka, and Locust',
+				'Implemented metric and health system in existing applications',
+				'Customized and rewrote Kafka producer to better fit team needs',
+				'Weekly deployment of application using CI process on gitlab',
+				'Implemented application dead letter queues sending to AWS S3'
 			]
 		},
 		{

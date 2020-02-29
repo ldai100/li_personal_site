@@ -10,7 +10,7 @@ application = Flask(__name__)
 
 @application.route('/resume/')
 def download_resume():
-	return send_file('./static/downloads/li_resume_10_08.pdf', as_attachment=True, attachment_filename='li_resume.pdf')
+	return send_file('./static/downloads/li_resume.pdf', as_attachment=True, attachment_filename='li_resume.pdf')
 
 @application.route('/', methods=['GET', 'POST'])
 def init():
