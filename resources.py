@@ -3,6 +3,7 @@ text={
 	'home': {
 		'name': 'Li',
 		'occupation': 'Founder',
+		'career': 'Entrepreneur',
 		'rank': 'Senior Airman',
 		'company': 'ESFE'
 	},
