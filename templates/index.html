@@ -64,10 +64,10 @@
 						<li><a href="#" data-nav-section="about">About</a></li>
 						<li><a href="#" data-nav-section="services">Services</a></li>
 						<li><a href="#" data-nav-section="skills">Skills</a></li>
-						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="work">Work</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
-<!-- 						<li><a href="#" data-nav-section="work">Work</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li> -->
+						<li><a href="#" data-nav-section="education">Education</a></li>
+<!--						<li><a href="#" data-nav-section="blog">Blog</a></li>-->
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
 				</div>
@@ -315,70 +315,161 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
 								<h3>{{text.skills.skill_1.name}}</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="{{text.skills.skill_1.value}}"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:{{text.skills.skill_1.value}}%">
-								    <span>{{text.skills.skill_1.value}}%</span>
-								  	</div>
-								</div>
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
 								<h3>{{text.skills.skill_2.name}}</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="{{text.skills.skill_2.value}}"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:{{text.skills.skill_2.value}}%">
-								    <span>{{text.skills.skill_2.value}}%</span>
-								  	</div>
-								</div>
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
 								<h3>{{text.skills.skill_3.name}}</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="{{text.skills.skill_3.value}}"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:{{text.skills.skill_3.value}}%">
-								    <span>{{text.skills.skill_3.value}}%</span>
-								  	</div>
-								</div>
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
 								<h3>{{text.skills.skill_4.name}}</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="{{text.skills.skill_4.value}}"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:{{text.skills.skill_4.value}}%">
-								    <span>{{text.skills.skill_4.value}}%</span>
-								  	</div>
-								</div>
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
 								<h3>{{text.skills.skill_5.name}}</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="{{text.skills.skill_5.value}}"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:{{text.skills.skill_5.value}}%">
-								    <span>{{text.skills.skill_5.value}}%</span>
-								  	</div>
-								</div>
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
 								<h3>{{text.skills.skill_6.name}}</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="{{text.skills.skill_6.value}}"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:{{text.skills.skill_6.value}}%">
-								    <span>{{text.skills.skill_6.value}}%</span>
-								  	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			 			<section class="colorlib-work" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My PM Work</span>
+							<h2 class="colorlib-heading animate-box">Recent Work</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url({{ url_for('static',filename='images/pm_work/pm_work_1.png') }});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="{{ url_for('static',filename='images/pm_work/pm_work_1.png') }}" target="_blank">Baymax App Wire Frame</a></h3>
+										<span>Wire Frame</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url({{ url_for('static',filename='images/pm_work/pm_work_2.png') }});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="{{ url_for('static',filename='images/pm_work/pm_work_2.png') }}" target="_blank">Prioritizing MVP requirements</a></h3>
+										<span>MVP</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url({{ url_for('static',filename='images/pm_work/pm_work_6.png') }});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="{{ url_for('static',filename='images/pm_work/pm_work_6.png') }}" target="_blank">Product Concept</a></h3>
+										<span>Prototyping</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url({{ url_for('static',filename='images/pm_work/pm_work_4.png') }});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="{{ url_for('static',filename='images/pm_work/pm_work_4.png') }}" target="_blank">Prioritizing Tasks</a></h3>
+										<span>Prioritization</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url({{ url_for('static',filename='images/pm_work/pm_work_5.png') }});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="{{ url_for('static',filename='images/pm_work/pm_work_5.png') }}" target="_blank">ESFE Jira Board</a></h3>
+										<span>Project Management</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url({{ url_for('static',filename='images/pm_work/pm_work_3.png') }});">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="{{ url_for('static',filename='images/pm_work/pm_work_3.png') }}" target="_blank">Product Concept</a></h3>
+										<span>Prototyping</span>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+<!--					<div class="row">-->
+<!--						<div class="col-md-12 animate-box">-->
+<!--							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>-->
+<!--						</div>-->
+<!--					</div>-->
+				</div>
+			</section>
+
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+
+							{% set works = text.works %}
+							{% set direction = text.direction %}
+							{% for work in works %}
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeIn{{direction[(loop.index-1) % 4]}}">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-{{loop.index}}">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">{{ work.title_company }}</a> <span>{{ work.time_range }}</span></h2>
+										<p>
+											{% set bullets = work.content %}
+											<ul>
+												{% for bullet in bullets %}
+													<li>{{ bullet }}</li>
+												{% endfor %}
+											</ul>
+										</p>
+					               </div>
+					            </div>
+					         </article>
+							{% endfor %}
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
 				</div>
 			</section>
 
@@ -452,173 +543,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</section>
 
-			<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Experience</span>
-							<h2 class="colorlib-heading animate-box">Work Experience</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered">
 
-							{% set works = text.works %}
-							{% set direction = text.direction %}
-							{% for work in works %}
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeIn{{direction[(loop.index-1) % 4]}}">
-					            <div class="timeline-entry-inner">
-
-					               <div class="timeline-icon color-{{loop.index}}">
-					                  <i class="icon-pen2"></i>
-					               </div>
-
-					               <div class="timeline-label">
-					                  <h2><a href="#">{{ work.title_company }}</a> <span>{{ work.time_range }}</span></h2>
-										<p>
-											{% set bullets = work.content %}
-											<ul>
-												{% for bullet in bullets %}
-													<li>{{ bullet }}</li>
-												{% endfor %}
-											</ul>
-										</p>
-					               </div>
-					            </div>
-					         </article>
-							{% endfor %}
-
-					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-none">
-					               </div>
-					            </div>
-					         </article>
-					      </div>
-					   </div>
-				   </div>
-				</div>
-			</section>
-
-
-
-<!-- 			<section class="colorlib-work" data-section="work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
-							<h2 class="colorlib-heading animate-box">Recent Work</h2>
-						</div>
-					</div>
-					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url({{ url_for('static',filename='images/img-1.jpg') }});">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 01</a></h3>
-										<span>Website</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url({{ url_for('static',filename='images/img-2.jpg') }});">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 02</a></h3>
-										<span>Animation</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url({{ url_for('static',filename='images/img-3.jpg') }});">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 03</a></h3>
-										<span>Illustration</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url({{ url_for('static',filename='images/img-4.jpg') }});">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 04</a></h3>
-										<span>Application</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url({{ url_for('static',filename='images/img-5.jpg') }});">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 05</a></h3>
-										<span>Graphic, Logo</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url({{ url_for('static',filename='images/img-6.jpg') }});">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 06</a></h3>
-										<span>Web Design</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section>
-
-
-
-
+<!--
 
 			<section class="colorlib-blog" data-section="blog">
 				<div class="colorlib-narrow-content">
