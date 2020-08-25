@@ -38,7 +38,7 @@
 							<h6>This is me</h6>
 							<h1>Li Dai</h1>
 							<p>
-								I am a entrepreneur, software engineer, and veteran who is passionate
+								I am a entrepreneur, solutions architect, software engineer, and veteran who is passionate
 								about exploring innovative ideas and use them to make products those
 								could impact the world.
 							</p>
@@ -65,11 +65,13 @@
 							<h6>About Me</h6>
 							<h1 class="text-uppercase">What I Did</h1>
 							<p>
+								I help others to advance in event streaming with Confluent.
+								I lead and mentored junior software engineer to grow and build products in ESFE.
 								I fought ad-fraud and bot networks with White Ops. <br>
 								I optimized financial data services in Fidelity Investments. <br>
 								I protected our country in the United States Air Force. <br>
 								<br>
-								This site is for my product related works only. Please check my original site for
+								This site is for my product and entrepreneurial works only. Please check my original site for
 								my comprehensive experiences.
 							</p>
 							<a href="/old" class="primary-btn text-uppercase">Original Site</a>
@@ -110,46 +112,46 @@
 		            <div class="row d-flex justify-content-center">
 		                <div class="menu-content pb-70 col-lg-8">
 		                    <div class="title text-center">
-		                        <h1 class="mb-10">My Product Works</h1>
-		                        <p>These are Mock Ups, Wireframes, Prototypes, and Actual Products I made</p>
+		                        <h1 class="mb-10">Products I Managed</h1>
+								<p>Please refer to <a href="https://nycesfe.com">ESFE </a> site to see my works.</p>
 		                    </div>
 		                </div>
 		            </div>
 
-                    <div class="filters">
-                        <ul>
-                            <li class="active" data-filter="*">All</li>
-							{% for type in text.types %}
-                            <li data-filter=".{{ type }}">{{ type }}</li>
-							{% endfor %}
-                        </ul>
-                    </div>
+<!--                    <div class="filters">-->
+<!--                        <ul>-->
+<!--                            <li class="active" data-filter="*">All</li>-->
+<!--							{% for type in text.types %}-->
+<!--                            <li data-filter=".{{ type }}">{{ type }}</li>-->
+<!--							{% endfor %}-->
+<!--                        </ul>-->
+<!--                    </div>-->
 
-                    <div class="filters-content">
-                        <div class="row grid">
+<!--                    <div class="filters-content">-->
+<!--                        <div class="row grid">-->
 
-							{% for project in text.projects %}
-                            <div class="single-portfolio col-sm-4 all {{ project.type }}">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="{{ url_for('static',filename='pm/img/pm_work/' + project.image) }}" alt="">
-	                            	</div>
-									<a href="{{ url_for('static',filename='pm/img/pm_work/' + project.image) }}" class="img-pop-up">
-									  <div class="middle">
-									    <div class="text align-self-center d-flex"><img src="{{ url_for('static',filename='pm/img/preview.png') }}" alt=""></div>
-									  </div>
-								</a>
-                            	</div>
-								<div class="p-inner">
-								    <h4>{{ project.name }}</h4>
-									<div class="cat">{{ project.type }}</div>
-								</div>
-                            </div>
-							{% endfor %}
+<!--							{% for project in text.projects %}-->
+<!--                            <div class="single-portfolio col-sm-4 all {{ project.type }}">-->
+<!--                            	<div class="relative">-->
+<!--	                            	<div class="thumb">-->
+<!--	                            		<div class="overlay overlay-bg"></div>-->
+<!--	                            		 <img class="image img-fluid" src="{{ url_for('static',filename='pm/img/pm_work/' + project.image) }}" alt="">-->
+<!--	                            	</div>-->
+<!--									<a href="{{ url_for('static',filename='pm/img/pm_work/' + project.image) }}" class="img-pop-up">-->
+<!--									  <div class="middle">-->
+<!--									    <div class="text align-self-center d-flex"><img src="{{ url_for('static',filename='pm/img/preview.png') }}" alt=""></div>-->
+<!--									  </div>-->
+<!--								</a>-->
+<!--                            	</div>-->
+<!--								<div class="p-inner">-->
+<!--								    <h4>{{ project.name }}</h4>-->
+<!--									<div class="cat">{{ project.type }}</div>-->
+<!--								</div>-->
+<!--                            </div>-->
+<!--							{% endfor %}-->
 
-                        </div>
-                    </div>
+<!--                        </div>-->
+<!--                    </div>-->
 
                 </div>
             </section>
