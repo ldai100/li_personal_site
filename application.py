@@ -14,6 +14,11 @@ def download_resume():
     return send_file('static/old/downloads/li_resume.pdf', as_attachment=True, attachment_filename='li_resume.pdf')
 
 
+@application.route('/family', methods=['GET'])
+def get_family():
+    return render_template('index_family.html', text=resources.text)
+
+
 @application.route('/old', methods=['GET'])
 def get_old():
     return render_template('index_old.html', text=resources.text)
