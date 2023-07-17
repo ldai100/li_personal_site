@@ -28,6 +28,10 @@ def get_old():
 def init():
     return render_template('index.html', text=resources_pm.text)
 
+@application.route('/cc', methods=['GET'])
+def get_cc():
+    return render_template('index_cc.html', text=resources.text)
+
 
 if __name__ == "__main__":
     application.add_url_rule('/static_pm/<path:filename>', endpoint='static_pm',
